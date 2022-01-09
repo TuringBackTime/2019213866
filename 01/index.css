@@ -1,0 +1,50 @@
+#background1{
+  
+  background: url(https://pic2.zhimg.com/80/v2-86f501a3787a627cfa5ec8a60298320c_r.jpg);
+}
+
+#container{
+  display: grid;
+  grid-template-columns: 0.5fr 0.7fr 1fr 0.7fr 0.5fr;
+  grid-template-rows: 1fr 2fr 0.7fr repeat(2, 1.5fr);
+  background-color: #eee;
+  grid-column-gap: 20px;
+  grid-row-gap: 14px;
+}
+
+.item {
+  font-size: 4em;
+  text-align: center;
+  border: 5px solid #eee;
+
+}
+
+.item-1 {
+  background-color: #ef342a;
+  grid-area: 1 / 2 / 3 / 5;
+}
+
+.item-2 {
+  background-color: #f68f26;
+  grid-area: 3 / 2 / 6 / 4; 
+}
+
+.item-3 {
+  background-color: #f68f26;
+  grid-area: 2 / 2 / 3 / 3;
+}
+
+.item-4 {
+  background-color: #ffffff;
+  grid-area: 3 / 4 / 4 / 5;
+}
+
+.item-5 {
+  background-color: #ffffff;
+  grid-area: 4 / 4 / 5 / 5;
+}
+
+.item-6 {
+  background-color: #ffffff;
+  grid-area: 5 / 4 / 6 / 5;
+}
